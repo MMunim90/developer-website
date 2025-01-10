@@ -156,6 +156,7 @@ main {
 .box-container {
   display: flex;
   margin: 48px;
+  justify-content: center;
 }
 .box-content-bottom {
   margin-bottom: 24px;
@@ -178,3 +179,12 @@ footer {
   transform: scale(1.2);
   transition: transform 0.3s;
 }
+.i-need-sup {
+    width: 1140px;
+    height: 313px;
+    border: 1px solid gray;
+    border-radius: 16px;
+    background-image: url("../assets/handshake.jpg");
+    display: flex;
+    justify-content: center;
+  }
